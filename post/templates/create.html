@@ -1,0 +1,5 @@
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.as_p}} <!--폼을 p태그로 감싸서 보여준다.-->
+    <input type="submit" value="제출">
+</form>
